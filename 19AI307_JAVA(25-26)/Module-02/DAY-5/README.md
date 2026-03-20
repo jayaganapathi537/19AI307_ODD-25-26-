@@ -51,3 +51,34 @@ class Employee {
     Employee display() {
         return this;  
     }
+
+    void printName() {
+        System.out.println("Employee Name: " + name);
+    }
+}
+
+class prog {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String inputName = scanner.nextLine();
+
+        Employee emp = new Employee();
+        emp.setName(inputName);
+        emp.display().printName();  
+    }
+}
+```
+
+
+## OUTPUT:
+
+<img width="686" height="326" alt="image" src="https://github.com/user-attachments/assets/954fafa4-a638-4044-b666-3322017194cd" />
+
+
+## RESULT:
+Therefore the program successfully returns the current object using this inside the display() method.
+
+
+
+
+
