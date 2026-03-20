@@ -78,6 +78,7 @@ public class Main
 
 
 ## OUTPUT:
+<img width=30% src="https://github.com/user-attachments/assets/05ebe553-f279-4f17-b125-675b4afd47bd" />
 
 
 ## RESULT:
