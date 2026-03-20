@@ -1,15 +1,28 @@
 # Ex.No:2(E) ACCESS MODIFIERS
 
 ## QUESTION:
+Create a class Employee with method display(). Inside display(), return the current object using this. Create another method that calls display().printName()
 
 
 ## AIM:
-
+To create an Employee class where the display() method returns the current object using this, and demonstrate calling display().printName() from another method.
 
 ## ALGORITHM :
-1.	Start the program.
-2.	Import the necessary package 'java.util'
-3.	
+1. Create a class Employee with a variable name.
+
+2. Write a method setName() to assign value to name.
+
+3. Write a method display() that returns the current object using return this;.
+
+4. Write a method printName() to print the employee name.
+
+5. Add another method show() that internally calls display().printName().
+
+6. In the main() method, read the employee name from the user.
+
+7.Create an Employee object and set the name.
+
+8. Call both display().printName() and show() to demonstrate method chaining.
 
 
 
@@ -19,21 +32,22 @@
  ```
 /*
 Program to implement a Access Modifiers using Java
-Developed by: 
-RegisterNumber:  
+Developed by: JAYAGANAPATHI S
+Register Number: 212224040133
 */
 ```
 
 ## SOURCE CODE:
+```JAVA
+import java.util.Scanner;
 
+class Employee {
+    String name;
 
+    void setName(String name) {
+        this.name = name;  
+    }
 
-
-
-
-
-## OUTPUT:
-
-
-
-## RESULT:
+    Employee display() {
+        return this;  
+    }
